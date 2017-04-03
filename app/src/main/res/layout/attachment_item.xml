@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dimen_15_dp"
+    android:paddingRight="@dimen/dimen_15_dp"
+    android:paddingTop="@dimen/dimen_25_dp"
+    android:paddingBottom="@dimen/dimen_25_dp"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/attachmentname_tv"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/dimen_xlarge"
+        style="@style/TextAppearanceMedium.FontPath"
+        android:text="Attachments"
+        android:textColor="@color/black"
+        android:gravity="left"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        />
+    <ImageView
+        android:id="@+id/download_imageview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/download_icon"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dimen_5_dp"
+        />
+
+</LinearLayout>
